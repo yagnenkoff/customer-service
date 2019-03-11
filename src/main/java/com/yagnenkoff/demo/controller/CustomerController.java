@@ -12,12 +12,12 @@ import javax.validation.ValidationException;
 import java.util.List;
 
 @RestController
-public class MainController {
+public class CustomerController {
 
     private final CustomerService customerService;
 
     @Autowired
-    public MainController(CustomerService customerService) {
+    public CustomerController(CustomerService customerService) {
         this.customerService = customerService;
     }
 
